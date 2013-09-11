@@ -1,7 +1,6 @@
 //Written by David Hausner
 //9-10-2013
 
-import java.io.*;
 import java.util.*;
 public class ChangeReturn {
 	public static void main(String[] arg) {
@@ -13,6 +12,7 @@ public class ChangeReturn {
 		System.out.println("Welcome to Change Return program!");
 		System.out.print("Enter change: ");
 		String input = userScan.next();
+		userScan.close();
 		
 		//if the user includes a dollar sign, gets rid of it
 		//rather than treating it like invalid data in next step
