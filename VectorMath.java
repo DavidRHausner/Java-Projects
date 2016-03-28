@@ -25,9 +25,9 @@ public class VectorMath
 	{
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Enter the first vector in Mi+Nj+Pk form.");
-		this.vectorA = scanner.nextLine();
+		vectorA = scanner.nextLine();
 		System.out.println("Enter the second vector in Mi+Nj+Pk form.");
-		this.vectorB = scanner.nextLine();
+		vectorB = scanner.nextLine();
 		scanner.close();
 	}
 	public void ParseVectors()
