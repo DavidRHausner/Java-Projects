@@ -1,4 +1,7 @@
-
+/*
+Written by David Hausner
+03-28-2016
+*/
 import java.util.Scanner;
 public class VectorMath
 {
@@ -7,8 +10,8 @@ public class VectorMath
 	private double AX, AY, AZ, BX, BY, BZ;
 	public double DotProduct()
 	{
-		System.out.println((this.AX*this.BX)+(this.AY*this.BY)+(this.AZ*this.BZ));
-		return (this.AX*this.BX)+(this.AY*this.BY)+(this.AZ*this.BZ);
+		System.out.println();
+		return ((AX*BX)+(AY*BY)+(AZ*BZ));
 	}
 	public String CrossProduct()
 	{
@@ -16,7 +19,6 @@ public class VectorMath
 		double Y = (AZ*BX)-(BZ*AX);
 		double Z = (AX*BY)-(BX*AY);
 		String answer = ""+X+"i+"+Y+"j+"+Z+"k";
-		System.out.println(""+X+"i+"+Y+"j+"+Z+"k");
 		return answer; 
 	}
 	public void SetVectors()
